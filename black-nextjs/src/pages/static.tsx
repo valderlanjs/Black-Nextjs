@@ -15,7 +15,8 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
         props: {
             staticData
-        }
+        },
+        revalidate: 10
     }
 }
 
@@ -43,16 +44,14 @@ const Static: NextPage = (props: {
       <Row>
         <Col>
           <h3>
-            Gerado estaticamente durante o build:
+          Gerado estaticamente durante o build: {props.staticData?.timestamp}
           </h3>
-          <h2>
-     
-          </h2>
+
         </Col>
 
         <Col>
           <h3>
-            Gerado no cliente: 
+          Gerado no cliente: {clientSideData?.timestamp}
           </h3>
         </Col>
       </Row>
