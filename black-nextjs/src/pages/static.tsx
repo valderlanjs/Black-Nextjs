@@ -54,8 +54,6 @@ const Static: NextPage = (props: {
           <h3>
             Gerado no cliente: 
           </h3>
-
-
         </Col>
       </Row>
     </Container>
