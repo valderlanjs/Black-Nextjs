@@ -44,14 +44,14 @@ const Static: NextPage = (props: {
       <Row>
         <Col>
           <h3>
-          Gerado estaticamente durante o build: {props.staticData?.timestamp.toString()}
+          Gerado estaticamente durante o build: 
           </h3>
 
         </Col>
 
         <Col>
           <h3>
-          Gerado no cliente: {clientSideData?.timestamp.toString()}
+          Gerado no cliente: 
           </h3>
         </Col>
       </Row>
