@@ -1,8 +1,11 @@
 // pages/cart.tsx
 
+import CartTable from "@/components/CartTable";
+import CartTotal from "@/components/CartTotal";
 import Header from "@/components/Header";
 import { NextPage } from "next";
 import Head from "next/head";
+import { Container } from "reactstrap";
 
 
 const Cart: NextPage = () => {
@@ -15,10 +18,16 @@ const Cart: NextPage = () => {
       </Head>
 
     <Header />
+    <main>
+        <Container className="mb-5">
+          <h1 className="my-5">
+            Carrinho
+          </h1>
 
-      <h1>
-        Carrinho
-      </h1>
+          <CartTable />
+          <CartTotal />
+        </Container>
+      </main>
     </>
   )
 }
