@@ -80,7 +80,7 @@
 
 <p>Antes de criarmos projetos e escrevermos código em Next.js, é importante entender como ele funciona por baixo dos panos.</p><p>O Next é um framework construído em cima do React, então tudo que você sabe sobre React continua valendo. Porém ele faz algumas alterações e implementa novos conceitos importantes.</p>
 
-<p>Vamos explorar os principais:</p>
+<p>Os principais:</p>
 
 <h3><strong>Hidratação do React</strong></h3>
 
@@ -131,7 +131,7 @@
 
 <h2>Estrutura de pastas de um projeto Next.js</h2>
 
-<p>Agora que entendemos como o Next funciona internamente, vamos conhecer a estrutura de pastas de um projeto:</p>
+<p>Agora que dá para entender como o Next funciona internamente, conhecer a estrutura de pastas de um projeto:</p>
 
 <ul>
     <li><p><strong>pages:</strong> Pasta com os components de página renderizados pelo Next. A organização de pastas gera as rotas automaticamente.</p></li>
@@ -153,7 +153,7 @@
 
 <p>Essa é a estrutura básica de um projeto Next. Veremos cada pasta com mais detalhes quando formos criar o projeto na prática.</p><h2>Criando um projeto Next.js</h2>
 
-<p>Agora que já sabemos o básico sobre o Next.js e sua estrutura, vamos colocar a mão na massa e criar um projeto do zero com ele.</p>
+<p>Agora que sabe-se o básico sobre o Next.js e sua estrutura, vamos colocar a mão na massa e criar um projeto do zero com ele.</p>
 
 <h3>Iniciando projeto</h3>
 
