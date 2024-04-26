@@ -290,4 +290,4 @@
     <li>E mais...</li>
 </ul>
 
-<p>Ele abstrai diversas complexidades do React puro e permite criar aplicações muito mais rápido e com menos bugs.</p><p>Espero que você tenha gostado do conteúdo! Qualquer dúvida, deixe nos comentários.</p>
+<p>Ele abstrai diversas complexidades do React puro e permite criar aplicações muito mais rápido e com menos bugs.</p><p>Espero que você tenha gostado do conteúdo!.</p>
